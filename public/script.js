@@ -1,5 +1,7 @@
 const restaurants = [];
 
+const endpoint = 'https://data.princegeorgescountymd.gov/resource/umjn-t2iz.json';
+
 fetch(endpoint)
     .then(blob => blob.json)
     .then(data => restaurants.push(...data))
