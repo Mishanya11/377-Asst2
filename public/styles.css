@@ -28,6 +28,7 @@
   header,
   navContainer {
     border: 1px solid rgba(255,255,255,0.8);
+    color: #008000;
     margin-bottom: 10px;
     border-radius: 3px;
   }
