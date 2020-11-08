@@ -3,7 +3,7 @@
     margin: 0 auto;
   }
   
-  header {
+  .header {
   width: 960px;
   }
   
@@ -16,7 +16,22 @@
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
   }
+
+  .Navcontainer {
+    width: 250px;
+  }
+  ul {
+    -moz-column-count: 3;
+    -moz-column-gap: 5px;
+    -webkit-column-count: 3;
+    -webkit-column-gap: 5px;
+    column-count: 3;
+    column-gap: 5px;
+  }
   
+  li {
+    display: block;
+  }
   body {
     background: #2980b9;
     color: #FFF;
