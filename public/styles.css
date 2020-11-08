@@ -5,6 +5,8 @@
 
 .header {
 width: 960px;
+margin: 0 auto;
+padding: 20px 0;
 }
 
 navContainer {
@@ -17,9 +19,12 @@ navContainer {
   box-sizing: border-box;
 }
 
-.Navcontainer {
-  width: 250px;
+.navContainer {
+  justify-content: center;
+  width: 400px;
+  margin: 0 auto;
 }
+
 ul {
   -moz-column-count: 3;
   -moz-column-gap: 5px;
@@ -27,6 +32,9 @@ ul {
   -webkit-column-gap: 5px;
   column-count: 1;
   column-gap: 5px;
+  width: 250px;
+  justify-content: center;
+  margin: 0 auto;
 }
 
 li {
@@ -34,10 +42,13 @@ li {
   padding: 20px 0;
   background-image: linear-gradient(to bottom, yellow, white);
   margin-bottom: 10px 0;
+  width: 300px;
+  justify-content: center;
 }
 
 ul>li {
   margin-bottom: 10px;
+  justify-content: center;
 }
 
 body {
@@ -45,21 +56,5 @@ body {
   color: black;
   font-family: Helvetica;
   text-align: center;
-  margin: 0;
-}
-
-header,
-navContainer {
-  border: 1px solid rgba(255,255,255,0.8);
-  color: #008000;
-  margin-bottom: 10px;
-  border-radius: 3px;
-}
-
-header {
-  padding: 20px 0;
-}
-
-navContainer {
-  padding: 200px 0;
+  margin: 0 auto;
 }
