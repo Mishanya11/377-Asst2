@@ -18,10 +18,10 @@ function displayMatches(){
     const html = matchArray.map(place => {
         return `
             <li>
-                <span class="name">${place.name}</span>
-                <span class="category">${place.category}</span>
-                <span class="address_line_1">${place.address_line_1}</span>
-                <span class="city">${place.city}</span>
+                <span class="name">${place.name}<br></span>
+                <span class="category">${place.category}<br></span>
+                <span class="address_line_1">${place.address_line_1}<br></span>
+                <span class="city">${place.city}<br></span>
                 <span class="zip">${place.zip}</span>
             </li>
         `;
