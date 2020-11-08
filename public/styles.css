@@ -36,6 +36,56 @@ ul {
 li {
   display: block;
   padding: 20px 0;
+  color: white;
+  text-decoration: underline;
+  }
+  
+  navContainer {
+    width: 750px;
+  }
+
+  *, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  .navContainer {
+    justify-content: center;
+    width: 400px;
+    margin: 0 auto;
+  }
+
+  ul {
+    -moz-column-count: 3;
+    -moz-column-gap: 5px;
+    -webkit-column-count: 3;
+    -webkit-column-gap: 5px;
+    column-count: 1;
+    column-gap: 5px;
+    width: 250px;
+    margin: 0 auto;
+  }
+  
+  li {
+    display: block;
+    padding: 20px 0;
+    background-image: linear-gradient(to bottom, yellow, white);
+    margin-bottom: 10px 0;
+    width: 300px;
+  }
+
+  ul>li {
+    margin-bottom: 10px;
+  }
+
+  body {
+    background: #2980b9;
+    color: black;
+    font-family: Helvetica;
+    text-align: center;
+    margin: 0 auto;
+  }
   background-image: linear-gradient(to bottom, orange, white);
   margin-bottom: 10px 0;
   width: 300px;
