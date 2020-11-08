@@ -4,6 +4,8 @@
 }
 
 .header {
+color: white;
+text-decoration: underline;
 width: 960px;
 margin: 0 auto;
 padding: 20px 0;
@@ -58,5 +60,5 @@ body {
 .search{
   margin-bottom: 20px;
   width: 300px;
-  margin-inline-start: 125px;
+  margin-inline-start: 130px;
 }
