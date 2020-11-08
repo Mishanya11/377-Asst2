@@ -7,6 +7,8 @@
 width: 960px;
 margin: 0 auto;
 padding: 20px 0;
+color: white;
+text-decoration: underline;
 }
 
 navContainer {
@@ -36,8 +38,6 @@ ul {
 li {
   display: block;
   padding: 20px 0;
-  color: white;
-  text-decoration: underline;
   }
   
   navContainer {
@@ -70,7 +70,7 @@ li {
   li {
     display: block;
     padding: 20px 0;
-    background-image: linear-gradient(to bottom, yellow, white);
+    background-image: linear-gradient(to bottom, orange, white);
     margin-bottom: 10px 0;
     width: 300px;
   }
@@ -86,11 +86,13 @@ li {
     text-align: center;
     margin: 0 auto;
   }
+  
+  
   background-image: linear-gradient(to bottom, orange, white);
   margin-bottom: 10px 0;
   width: 300px;
   justify-content: center;
-}
+
 
 ul>li {
   margin-bottom: 10px;
