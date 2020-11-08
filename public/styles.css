@@ -21,26 +21,22 @@ navContainer {
 
 .navContainer {
   justify-content: center;
+  align-items: center;
   width: 400px;
   margin: 0 auto;
 }
 
 ul {
-  -moz-column-count: 3;
-  -moz-column-gap: 5px;
-  -webkit-column-count: 3;
-  -webkit-column-gap: 5px;
-  column-count: 1;
-  column-gap: 5px;
   width: 250px;
   justify-content: center;
+  align-items: center;
   margin: 0 auto;
 }
 
 li {
   display: block;
   padding: 20px 0;
-  background-image: linear-gradient(to bottom, yellow, white);
+  background-image: linear-gradient(to bottom, orange, white);
   margin-bottom: 10px 0;
   width: 300px;
   justify-content: center;
@@ -57,4 +53,10 @@ body {
   font-family: Helvetica;
   text-align: center;
   margin: 0 auto;
+}
+
+.search{
+  margin-bottom: 20px;
+  width: 300px;
+  margin-inline-start: 125px;
 }
