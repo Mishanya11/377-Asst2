@@ -23,6 +23,7 @@
     justify-content: center;
     width: 400px;
     margin: 0 auto;
+    align-items: left;
   }
   ul {
     -moz-column-count: 3;
@@ -32,8 +33,9 @@
     column-count: 1;
     column-gap: 5px;
     width: 250px;
-    justify-content: center;
     margin: 0 auto;
+    justify-content: left;
+    align-items: left;
   }
   
   li {
@@ -42,12 +44,14 @@
     background-image: linear-gradient(to bottom, yellow, white);
     margin-bottom: 10px 0;
     width: 300px;
-    justify-content: center;
+    justify-content: left;
+    align-items: left;
   }
 
   ul>li {
     margin-bottom: 10px;
-    justify-content: center;
+    justify-content: left;
+    align-items: left;
   }
 
   body {
