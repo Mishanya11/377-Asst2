@@ -25,16 +25,24 @@
     -moz-column-gap: 5px;
     -webkit-column-count: 3;
     -webkit-column-gap: 5px;
-    column-count: 3;
+    column-count: 1;
     column-gap: 5px;
   }
   
   li {
     display: block;
+    padding: 20px 0;
+    background-image: linear-gradient(to bottom, yellow, white);
+    margin-bottom: 10px 0;
   }
+
+  ul>li {
+    margin-bottom: 10px;
+  }
+
   body {
     background: #2980b9;
-    color: #FFF;
+    color: black;
     font-family: Helvetica;
     text-align: center;
     margin: 0;
